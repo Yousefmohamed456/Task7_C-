@@ -66,57 +66,7 @@ namespace task7
             //ToString() is often overridden in custom classes because the default usually returns the class name
             //which doesn't provide useful information about the object.
             #endregion
-            #region P6
-            //Rectangle rectangle = new Rectangle(); 
-            //rectangle.Width = 10; rectangle.Height = 5; 
-            //Console.WriteLine($"Area = {rectangle.Area}"); 
-            //rectangle.Draw();
-            //Q6:You cannot create an instance of an interface directly because an interface only defines a contract—it specifies what members a class must provide
-            //but it doesn't provide a complete implementation or object itself.
-            #endregion
-            #region P7
-            //Circle circle = new Circle(); 
-            //circle.Radius = 5; 
-            //IShape shape = circle; 
-            //shape.PrintDetails();
-            //Q7:
-            //Default interface implementations allow interfaces to provide method implementations.
-            //They improve code reuse, maintain backward compatibility when adding new members to interfaces 
-            //and reduce the need for duplicate implementations in classes.
-            #endregion
-            #region P8
-            //IMovable movable = new Car1(); 
-            //movable.Move();
-            //Q8:
-            //Using an interface reference allows code to work with different implementing classes through a common contract.
-            //This provides polymorphismflexibility and loose coupling, making the code easier to maintain and extend.
-            #endregion
-            #region P9
-            //File file = new File(); 
-            //file.Read(); 
-            //file.Write(); 
-            //IReadable readable = file; 
-            //readable.Read(); 
-            //IWritable writable = file; 
-            //writable.Write();
-            //Q9:
-            //C# overcomes the single-inheritance limitation by allowing a class to implement multiple interfaces. 
-            //A class can inherit from one base class while implementing any number of interfaces, 
-            //giving it multiple behaviors or contracts.
-            #endregion
-            #region P10
-            //Rectangle1 rectangle = new Rectangle1(); 
-            //rectangle.Width = 10; 
-            //rectangle.Height = 5; 
-            //rectangle.Draw(); 
-            //Console.WriteLine($"Area = {rectangle.CalculateArea()}"); 
-            //Shape shape = new Rectangle1(); 
-            //shape.Draw(); 
-            //Console.WriteLine($"Area = {shape.CalculateArea()}");
-            //Q10:
-            //A virtual method provides a default implementation that a derived class can optionally override
-            //while an abstract method has no implementation and must be overridden by a derived class
-            //Abstract methods can only be declared inside an abstract class.
+
             #endregion
         }
     }
